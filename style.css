@@ -105,19 +105,19 @@ div > img{
     width: 100%;
 }
 
-.main-banner h1{
+.main-banner h2{
     color: white;
     font-size: 3em;
 }
 
 @media (max-width: 750px) {
-    .main-banner h1{
+    .main-banner h2{
         font-size: 2em;
     }
 }
 
 @media (max-width: 450px) {
-    .main-banner h1{
+    .main-banner h2{
         font-size: 1.5em;
     }
 }
