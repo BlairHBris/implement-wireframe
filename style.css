@@ -35,6 +35,12 @@ div > img{
     aspect-ratio: 5 / 2;
 }
 
+@media (max-width: 550px) {
+    div >img {
+        aspect-ratio: 5 / 3;
+    }
+}
+
 .main-image{
     text-align: center;
     position: relative;
@@ -54,12 +60,36 @@ div > img{
     font-size: 3em;
 }
 
+@media (max-width: 750px) {
+    .main-banner h1{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-banner h1{
+        font-size: 1.5em;
+    }
+}
+
 .main-banner a{
     color: white;
     font-size: 1.5em;
     text-decoration: none;
     border: .1em solid white;
     padding: .15em;
+}
+
+@media (max-width: 750px) {
+    .main-banner a{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-banner a{
+        font-size: 1em;
+    }
 }
 
 .main-banner a:hover{
