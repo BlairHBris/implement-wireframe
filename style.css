@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
 body{
+    font-family: 'Mouse Memoirs', sans-serif;
     margin: 0%;
     display: flex;
     align-items: center;
@@ -6,6 +9,7 @@ body{
 }
 
 nav{
+    font-size: 20px;
     align-items: initial;
     padding-top: 1em;
     display: flex;  
@@ -49,6 +53,7 @@ li > a:hover{
 .interactives{
     display: flex;
     flex-flow: row nowrap;
+    margin-top: 1em;
 }
 
 .interactives > a{
@@ -154,13 +159,17 @@ h2{
     font-size: 2em;
 }
 
+h3{
+    font-size: 1.5em;
+}
+
 .feature{
     padding-top: 1em;
     padding-right: 1em;
 }
 
 .feature > p {
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 1em;
     padding-bottom: 2em;
 }
